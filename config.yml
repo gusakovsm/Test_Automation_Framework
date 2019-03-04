@@ -1,6 +1,4 @@
 projectConfigurations:
   browser:
     name: chrome
-    startMaximized: true
-    headless: false
-    baseUrl: http://demoshop24.com
+    baseUrl: https://www.google.com/
