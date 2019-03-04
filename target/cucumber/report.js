@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("google.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Google.feature");
 formatter.feature({
   "line": 1,
   "name": "Google Feature Example",
@@ -37,14 +37,19 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "first result is: \"tesst\"",
+  "name": "first result is: \"Selenium WebDriver\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "close browser",
   "keyword": "And "
 });
 formatter.match({
   "location": "GoogleSteps.pen_Google_webpage()"
 });
 formatter.result({
-  "duration": 8968060491,
+  "duration": 14674041437,
   "status": "passed"
 });
 formatter.match({
@@ -57,28 +62,34 @@ formatter.match({
   "location": "GoogleSteps.search(String)"
 });
 formatter.result({
-  "duration": 1322967750,
+  "duration": 3841726312,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSteps.result_page_was_opened()"
 });
 formatter.result({
-  "duration": 43411527,
+  "duration": 408530443,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "tesst",
+      "val": "Selenium WebDriver",
       "offset": 18
     }
   ],
   "location": "GoogleSteps.first_result_is(String)"
 });
 formatter.result({
-  "duration": 137467509,
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[\"Frodo\"]\u003e but was:\u003c[[[ChromeDriver: chrome on XP (46a476d2f8d0e8bc8fe6cdcce2166dea)] -\u003e css selector: #ires .g]]\u003e\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat stepDefinitions.GoogleSteps.first_result_is(GoogleSteps.java:48)\r\n\tat ✽.And first result is: \"tesst\"(google.feature:8)\r\n",
-  "status": "failed"
+  "duration": 800170968,
+  "status": "passed"
+});
+formatter.match({
+  "location": "GoogleSteps.close_browser()"
+});
+formatter.result({
+  "duration": 3079865763,
+  "status": "passed"
 });
 });

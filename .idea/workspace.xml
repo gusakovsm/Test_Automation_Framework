@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="279b299f-44c3-4de8-a556-866292d22df8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/config/YamlConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/config/YamlFileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/exceptions/BadSetupException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/java/pageObjects/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/java/pageObjects/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/java/pageObjects/ResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/java/stepDefinitions/GoogleSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/java/testRunners/UniversalRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/resources/features/Google.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/core/config/YamlConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/core/config/YamlFileManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/core/exceptions/BadSetupException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/core/exceptions/DateConversionException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/core/exceptions/ExecutionFailureException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/core/exceptions/RESTCallException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/flowWorkers/WebDriverLib$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/flowWorkers/WebDriverLib.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pageObjects/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/autoTests/java/flowWorkers/WebDriverLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/flowWorkers/WebDriverLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/exceptions/DateConversionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/exceptions/ExecutionFailureException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/exceptions/RESTCallException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flowWorkers/WebDriverLib$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flowWorkers/WebDriverLib$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flowWorkers/WebDriverLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flowWorkers/WebDriverLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stepDefinitions/GoogleSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stepDefinitions/GoogleSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,23 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/java/testRunners/UniversalRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="406">
-                <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -98,7 +72,6 @@
         <option value="$PROJECT_DIR$/src/tests/resources/features/LoginPage.feature" />
         <option value="$PROJECT_DIR$/src/tests/java/stepDefinitions/LoginPageSteps.java" />
         <option value="$PROJECT_DIR$/src/tests/java/pageObjects/ResultPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/tests/java/pageObjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/tests/resources/features/google.feature" />
         <option value="$PROJECT_DIR$/src/tests/resources/features/Google.feature" />
@@ -108,6 +81,7 @@
         <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/src/tests/java/stepDefinitions/GoogleSteps.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -137,100 +111,6 @@
               <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flowWorkers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testRunners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_Automation_Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_Automation_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -256,11 +136,11 @@
       <recent name="stepDefinitions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maksims.gusakovs\Documents\Projects\Test_Automation_Framework" />
       <recent name="C:\Users\maksims.gusakovs\Documents\Projects\Test_Automation_Framework\src\tests\resources\features" />
       <recent name="C:\Users\maksims.gusakovs\Documents\Projects\Test_Automation_Framework\src\tests\resources\drivers" />
       <recent name="C:\Users\maksims.gusakovs\Documents\Projects\Test_Automation_Framework\src\main\java\core\" />
       <recent name="C:\Users\maksims.gusakovs\Documents\Projects\Test_Automation_Framework\src\main\java\core\config" />
-      <recent name="C:\Users\maksims.gusakovs\Documents\Projects\Test_Automation_Framework\src\autoTests\java\stepDefinitions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Search in google (1)">
+  <component name="RunManager" selected="JUnit.UniversalRunner">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -404,8 +284,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Search in google (1)" />
         <item itemvalue="JUnit.UniversalRunner" />
+        <item itemvalue="Cucumber java.Scenario: Search in google (1)" />
         <item itemvalue="Cucumber java.Scenario: Search in google" />
         <item itemvalue="Cucumber java.Scenario: Login with invalid user (1)" />
         <item itemvalue="Cucumber java.Scenario: Login with invalid user" />
@@ -426,9 +306,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Search_in_google_(1) - 2019.03.04 at 15h 41m 08s.xml">
-      <configuration name="Scenario: Search in google (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Search_in_google_(1) - 2019.03.04 at 15h 41m 59s.xml">
       <configuration name="Scenario: Search in google (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -456,6 +333,9 @@
     <history-entry file="Scenario__Search_in_google_(1) - 2019.03.04 at 16h 00m 08s.xml">
       <configuration name="Scenario: Search in google (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="UniversalRunner - 2019.03.04 at 16h 26m 47s.xml">
+      <configuration name="UniversalRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-1088" width="1936" height="1056" extended-state="6" />
@@ -468,14 +348,14 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -742,28 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/java/pageObjects/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/resources/features/LoginPage.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -784,69 +646,6 @@
             <element signature="e#1398#1399#0" expanded="true" />
             <element signature="e#1448#1449#0" expanded="true" />
             <element signature="e#1484#1485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/java/pageObjects/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/java/pageObjects/ResultPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/java/stepDefinitions/GoogleSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/resources/features/Google.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/java/flowWorkers/WebDriverLib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -879,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/java/testRunners/UniversalRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -893,6 +685,89 @@
             <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/resources/features/Google.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/java/flowWorkers/WebDriverLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/java/pageObjects/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/java/pageObjects/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/java/pageObjects/ResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/java/stepDefinitions/GoogleSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1358">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/java/testRunners/UniversalRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
