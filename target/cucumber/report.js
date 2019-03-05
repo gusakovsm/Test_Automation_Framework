@@ -49,7 +49,7 @@ formatter.match({
   "location": "GoogleSteps.pen_Google_webpage()"
 });
 formatter.result({
-  "duration": 14674041437,
+  "duration": 8466910383,
   "status": "passed"
 });
 formatter.match({
@@ -62,14 +62,14 @@ formatter.match({
   "location": "GoogleSteps.search(String)"
 });
 formatter.result({
-  "duration": 3841726312,
+  "duration": 2059666732,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSteps.result_page_was_opened()"
 });
 formatter.result({
-  "duration": 408530443,
+  "duration": 59857788,
   "status": "passed"
 });
 formatter.match({
@@ -82,14 +82,14 @@ formatter.match({
   "location": "GoogleSteps.first_result_is(String)"
 });
 formatter.result({
-  "duration": 800170968,
+  "duration": 360066892,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSteps.close_browser()"
 });
 formatter.result({
-  "duration": 3079865763,
+  "duration": 970458881,
   "status": "passed"
 });
 });
