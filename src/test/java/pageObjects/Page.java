@@ -4,9 +4,9 @@ import flowWorkers.WebDriverLib;
 
 public class Page {
 	
-	private WebDriverLib driver;
-	
-	public void setDriver(WebDriverLib driver) {
+	protected WebDriverLib driver;
+
+	public Page(WebDriverLib driver) {
 		this.driver = driver;
 	}
 }
