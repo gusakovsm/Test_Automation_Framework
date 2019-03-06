@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="279b299f-44c3-4de8-a556-866292d22df8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/flowWorkers/WebDriverLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/flowWorkers/WebDriverLib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/GoogleSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/GoogleSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Google.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Google.feature" afterDir="false" />
-    </list>
+    <list default="true" id="279b299f-44c3-4de8-a556-866292d22df8" name="Default Changelist" comment="" />
     <list id="2f40ab95-05df-4553-9874-47ab20084d2e" name="Ready for review" comment="" />
     <ignored path=".idea/" />
     <ignored path="allure-results/" />
@@ -30,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/GoogleSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
@@ -52,6 +44,18 @@
                 <element signature="e#1860#1861#0" expanded="true" />
                 <element signature="e#1887#1888#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -110,7 +114,6 @@
         <option value="$PROJECT_DIR$/src/test/java/pageObjects/ResultPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/GoogleSteps1.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/flowWorkers/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/flowWorkers/WebDriverLib.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneralSteps.java" />
@@ -118,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/GoogleSteps.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -772,16 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="182">
-            <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testRunners/UniversalRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -889,6 +883,16 @@
             <element signature="e#1860#1861#0" expanded="true" />
             <element signature="e#1887#1888#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

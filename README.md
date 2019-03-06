@@ -1,7 +1,7 @@
-#Test Automation framework for Web
+# Test Automation framework for Web
 **Author**: Maksims Gusakovs (maksims.gusakovs@accenture.com).
 
-##Features and stuff
+## Features and stuff
 * Code and whole test step reuse benefit from Cucumber;
 * Different properties (yaml, csv) readers to set up default project configurations;
 
