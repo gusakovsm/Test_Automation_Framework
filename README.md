@@ -1,5 +1,5 @@
 # Test Automation framework for Web
-**Author**: Maksims Gusakovs (maksims.gusakovs@accenture.com).
+**Author**: Maksims Gusakovs.
 
 ## Features and stuff
 * Code and whole test step reuse benefit from Cucumber;

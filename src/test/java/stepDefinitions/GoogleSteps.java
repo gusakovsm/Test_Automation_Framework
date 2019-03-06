@@ -13,10 +13,6 @@ import pageObjects.ResultPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-/**
- * @author maksims.gusakovs@accenture.com
- */
-
 public class GoogleSteps extends GeneralSteps {
     private MainPage mainPage = new MainPage(driver);
     private ResultPage resultPage = new ResultPage(driver);

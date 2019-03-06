@@ -8,9 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-/**
- * @author maksims.gusakovs@accenture.com
- */
 public class ResultPage extends Page {
 
     @FindBy(how = How.CSS, using = "#ires .g")

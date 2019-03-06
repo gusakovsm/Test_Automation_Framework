@@ -17,10 +17,6 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * @author maksims.gusakovs@accenture.com
- */
-
 public class WebDriverLib implements WebDriver {
 
     private static WebDriver driver;
