@@ -25,34 +25,36 @@ public class WebDriverLib implements WebDriver {
 
     private static WebDriver driver;
     private static WebDriverWait wait;
+    private String driverPath = System.getProperty("user.dir") + "/src/test/resources/drivers/";
+    private YamlConfig config = YamlFileManager.getProjectConfigurations();
+    private String browser = config.getConfiguration("browser.name");
+    private String baseURL = config.getConfiguration("browser.baseUrl");
 
-    public void openBrowser(String URL) {
-        YamlConfig config = YamlFileManager.getProjectConfigurations();
-        String browser = config.getConfiguration("browser.name");
-        String baseURL = config.getConfiguration("browser.baseUrl");
-
+    public void openBrowser() {
         switch (browser) {
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/drivers/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver.exe");
                 driver = new ChromeDriver();
                 break;
             case "firefox":
-                System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/drivers/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", driverPath + "geckodriver.exe");
                 driver = new FirefoxDriver();
                 break;
             case "ie":
-                System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/src/test/resources/drivers/IEDriverServer.exe");
+                System.setProperty("webdriver.ie.driver", driverPath + "IEDriverServer.exe");
                 driver = new InternetExplorerDriver();
                 break;
             default:
                 System.out.println("Incorrect Browser");
                 break;
-
         }
-        driver.get(baseURL + URL);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wait = (WebDriverWait) new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 20);
+    }
+
+    public void openWebPage(String URL) {
+        driver.get(baseURL + URL);
     }
 
     public void waitForElementPresent(By by) {

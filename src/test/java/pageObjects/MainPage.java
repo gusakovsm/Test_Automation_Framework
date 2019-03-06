@@ -17,6 +17,8 @@ public class MainPage extends Page {
     public WebElement logo;
     @FindBy(how = How.CSS, using = ".a4bIc > input")
     public WebElement searchField;
+    @FindBy(how = How.ID, using = "gb_70")
+    public WebElement loginButton;
 
     public MainPage(WebDriverLib driver) {
         super(driver);
@@ -28,5 +30,10 @@ public class MainPage extends Page {
         searchField.clear();
         searchField.sendKeys(searchData);
         searchField.sendKeys(Keys.ENTER);;
+    }
+
+    public void clickLoginButton() {
+        driver.waitForElementPresent(loginButton);
+        loginButton.click();
     }
 }

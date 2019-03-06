@@ -1,11 +1,11 @@
 #Test Automation framework for Web
-**Author**: Maksims Gusakovs (maksims.gusakovs@accenutre.com).
+**Author**: Maksims Gusakovs (maksims.gusakovs@accenture.com).
 
 ##Features and stuff
 * Code and whole test step reuse benefit from Cucumber;
 * Different properties (yaml, csv) readers to set up default project configurations;
 
-##### Running tests locally
+## Running tests locally
 Several ways to run test from IDE:
 * Running set of service specific test by running FeatureRunner from `\src\tests\java\testRunners\...`
 * Running some specific test by tag using UniversalRunner `\src\tests\java\testRunners\UniversalRunner.java`. Put needed tag in tags block in runner.
@@ -13,7 +13,7 @@ Several ways to run test from IDE:
     * if there is issue with too long command line, do following:
         In Cucumber java Run/Debug configuration "Shorten command line" set to JAR manifest
 
-##### Configurations
+## Configurations
 * Web-browser type configuration:
     * Configuration file `\config.yml`
     * For local testing available browsers are: chrome, firefox, ie, phantomjs, safari, opera
